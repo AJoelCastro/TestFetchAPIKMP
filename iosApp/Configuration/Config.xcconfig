@@ -1,0 +1,7 @@
+TEAM_ID=
+
+PRODUCT_NAME=TranslateRealTimeProject
+PRODUCT_BUNDLE_IDENTIFIER=org.arturocastro.project.TranslateRealTimeProject$(TEAM_ID)
+
+CURRENT_PROJECT_VERSION=1
+MARKETING_VERSION=1.0
