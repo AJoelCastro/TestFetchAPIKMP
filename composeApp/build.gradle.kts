@@ -49,7 +49,7 @@ kotlin {
         }
         iosMain.dependencies {
             implementation(libs.ktor.client.darwin)
-s        }
+        }
         commonTest.dependencies {
             implementation(libs.kotlin.test)
         }
