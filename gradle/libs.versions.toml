@@ -38,6 +38,8 @@ kotlinx-serialization-json = { module = "org.jetbrains.kotlinx:kotlinx-serializa
 coil-compose = { group="io.coil-kt.coil3", name="coil-compose", version.ref = "coil" }
 coil-network-ktor = { group="io.coil-kt.coil3", name="coil-network-ktor", version.ref = "coil" }
 ktor-client-core = { group="io.ktor", name="ktor-client-core", version.ref = "ktor" }
+ktor-client-contentnegotiation = { group="io.ktor", name="ktor-client-content-negotiation", version.ref = "ktor" }
+ktor-serialization-json = { group="io.ktor", name="ktor-serialization-kotlinx-json", version.ref = "ktor" }
 ktor-client-okhttp = { group="io.ktor", name="ktor-client-okhttp", version.ref = "ktor" }
 ktor-client-darwin = { group="io.ktor", name="ktor-client-darwin", version.ref = "ktor" }
 androidx-navigation-compose = { group="org.jetbrains.androidx.navigation", name="navigation-compose", version.ref = "navigation-compose" }
@@ -50,3 +52,4 @@ composeCompiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "k
 kotlinMultiplatform = { id = "org.jetbrains.kotlin.multiplatform", version.ref = "kotlin" }
 androidKotlinMultiplatformLibrary = { id = "com.android.kotlin.multiplatform.library", version.ref = "agp" }
 androidLint = { id = "com.android.lint", version.ref = "agp" }
+kotlinxSerialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }

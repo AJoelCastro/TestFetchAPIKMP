@@ -4,7 +4,7 @@ plugins {
     alias(libs.plugins.androidLint)
     alias(libs.plugins.composeMultiplatform)
     alias(libs.plugins.composeCompiler)
-    kotlin("plugin.serialization") version "2.2.0"
+    alias(libs.plugins.kotlinxSerialization)
 }
 
 kotlin {
@@ -76,6 +76,9 @@ kotlin {
                 implementation(libs.coil.core)
                 implementation(libs.coil.network.ktor)
                 implementation(libs.ktor.client.core)
+                implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2")
+                implementation(libs.ktor.client.contentnegotiation)
+                implementation(libs.ktor.serialization.json)
             }
         }
 
