@@ -4,6 +4,7 @@ plugins {
     alias(libs.plugins.androidLint)
     alias(libs.plugins.composeMultiplatform)
     alias(libs.plugins.composeCompiler)
+    kotlin("plugin.serialization") version "2.2.0"
 }
 
 kotlin {
@@ -71,6 +72,7 @@ kotlin {
                 implementation(libs.androidx.lifecycle.viewmodelCompose)
                 implementation(libs.androidx.lifecycle.runtimeCompose)
                 // Add KMP dependencies here
+                implementation(libs.kotlinx.serialization.json)
             }
         }
 
