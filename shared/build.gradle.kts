@@ -73,7 +73,7 @@ kotlin {
                 implementation(libs.androidx.lifecycle.runtimeCompose)
                 // Add KMP dependencies here
                 implementation(libs.kotlinx.serialization.json)
-                implementation(libs.coil.core)
+                implementation(libs.coil.compose)
                 implementation(libs.coil.network.ktor)
                 implementation(libs.ktor.client.core)
                 implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.10.2")
